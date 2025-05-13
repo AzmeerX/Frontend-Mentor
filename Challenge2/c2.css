@@ -3,15 +3,14 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 
 .main{
     padding: 10px;
-    margin-top: 70px;
     display: flex;
     flex-direction: column;
     width: 18vw;
-    height: 63vh;
     background-color: white;
     border: 1px solid black;
     border-radius: 13px;
@@ -38,11 +37,12 @@ body{
     justify-content: center;
 }
 
-button{
+.bt{
     margin-top: 9px;
     background-color: rgba(231, 235, 18, 0.884);
     border: none;
     border-radius: 5px;
+    width: 8vw;
     padding: 3px;
     font-weight: bold;
     font-size: 10px;
@@ -54,7 +54,7 @@ h3{
     margin-top: 13px;
 }
 
-.sec > div{
+.sec > p{
     margin-left: 8px;
     font-weight: bold;
     font-size: 13px;
